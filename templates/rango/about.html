@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+    <head>
+        <title>About Page</title>
+    </head>
+
+    <body>
+        <h1>Rango says...</h1>
+        About <em>{{italicmessage }}</em><br />
+        <a href="/rango/">Index</a><br />
+        <img src="{% static 'images/django.jpg' %}" alt="Photo of rango"/>
+    </body>
+
+</html>

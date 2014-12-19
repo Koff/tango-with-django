@@ -5,7 +5,10 @@
 {% block title %}About{% endblock %}
 
 {% block body_block %}
-        <h1>Rango says...</h1>
-        About <em>{{italicmessage }}</em><br />
-        <img src="{% static 'images/django.jpg' %}" alt="Photo of rango"/>
+    <div class="page-header">
+            <h1>About</h1>
+    </div>
+    <div>
+        <img  width="150" height="250" src="{% static 'images/django.jpg' %}" alt="Picture of Rango" />
+    </div>
 {% endblock %}
